@@ -1,0 +1,33 @@
+{
+  "name": "bech32m-chia",
+  "version": "1.0.1",
+  "description": "A BIP350 compatible Bech32m encoding/decoding library for chia.",
+  "main": "./src/bech32m.js",
+  "module": "./src/bech32m.mjs",
+  "exports":{
+    ".":{
+      "require":"./src/bech32m.js",
+      "import":"./src/bech32m.mjs"
+    }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nongyehezuoshe/chia-bech32m.git"
+  },
+  "keywords": [
+    "bech32m",
+    "chia"
+  ],
+  "author": "hezuoshe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nongyehezuoshe/chia-bech32m/issues"
+  },
+  "homepage": "https://github.com/nongyehezuoshe/chia-bech32m#readme"
+}
