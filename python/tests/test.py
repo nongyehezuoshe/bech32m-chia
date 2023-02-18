@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from chia_bech32m import bech32m
+from bech32m_chia import bech32m
 
 print(bech32m.encode("7382e99e0679b68b6e8211c48224c99fc941a5f035bd85f9f32c4a8f48d3bb29","xch"))
 print(bech32m.encode("0x7382e99e0679b68b6e8211c48224c99fc941a5f035bd85f9f32c4a8f48d3bb29","xch"))

@@ -86,11 +86,9 @@ def bech32_decode(bech: str, max_length: int = 90):
 
 def convertbits(data, frombits: int, tobits: int, pad: bool = True):
     """General power-of-2 base conversion."""
-    data=data.strip()
     if pad:
+        data=data.strip()
         data=bytes.fromhex(data.lower()) if data[0:2].lower()!="0x" else bytes.fromhex(data[2:].lower())
-    else:
-        data=data
     acc = 0
     bits = 0
     ret = []

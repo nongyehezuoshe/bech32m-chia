@@ -1,4 +1,4 @@
-# chia_bech32m for python
+# bech32m_chia for python
 
 A BIP350 compatible Bech32m encoding/decoding library for chia.
 
