@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
-Name: chia-bech32m
-Version: 1.0.0
+Name: bech32m-chia
+Version: 1.0.2
 Summary: A BIP350 compatible Bech32m encoding/decoding library for chia.
 Author-email: hezuoshe <nongyehezuoshe@gmail.com>
-Project-URL: Homepage, https://github.com/nongyehezuoshe/chia-bech32m
-Project-URL: Bug Tracker, https://github.com/nongyehezuoshe/chia-bech32m/issues
+Project-URL: Homepage, https://github.com/nongyehezuoshe/bech32m-chia
+Project-URL: Bug Tracker, https://github.com/nongyehezuoshe/bech32m-chia/issues
 Requires-Python: >=3.0
 Description-Content-Type: text/markdown
 License-File: LICENSE
@@ -16,7 +16,7 @@ A BIP350 compatible Bech32m encoding/decoding library for chia.
 ## install
 
 ```bash
-pip install chia-bech32m
+pip install bech32m-chia
 ```
 
 ## Use
@@ -24,7 +24,7 @@ pip install chia-bech32m
 ### import
 
 ```python
-from chia_bech32m import bech32m
+from bech32m_chia import bech32m
 ```
 
 ### Example

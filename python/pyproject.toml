@@ -3,8 +3,8 @@ requires = ["setuptools>=58.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "chia_bech32m"
-version = "1.0.0"
+name = "bech32m_chia"
+version = "1.0.2"
 authors = [
   { name="hezuoshe", email="nongyehezuoshe@gmail.com" },
 ]
@@ -13,5 +13,5 @@ readme = "README.md"
 requires-python = ">=3.0"
 
 [project.urls]
-"Homepage" = "https://github.com/nongyehezuoshe/chia-bech32m"
-"Bug Tracker" = "https://github.com/nongyehezuoshe/chia-bech32m/issues"
+"Homepage" = "https://github.com/nongyehezuoshe/bech32m-chia"
+"Bug Tracker" = "https://github.com/nongyehezuoshe/bech32m-chia/issues"

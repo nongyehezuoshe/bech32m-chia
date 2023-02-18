@@ -5,7 +5,7 @@ A BIP350 compatible Bech32m encoding/decoding library for chia.
 ## install
 
 ```bash
-pip install chia-bech32m
+pip install bech32m-chia
 ```
 
 ## Use
@@ -13,7 +13,7 @@ pip install chia-bech32m
 ### import
 
 ```python
-from chia_bech32m import bech32m
+from bech32m_chia import bech32m
 ```
 
 ### Example
